@@ -11,31 +11,13 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
-behaviors {
-        td0: tap_dance_0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp DOWN>;
-        
-        td1: tap_dance_0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_1";
-            #binding-cells = <0>;
-            tapping-term-ms = <200>;
-            bindings = <&kp UP>;
-        	};    
-    	};
-    };
-
-    keymap {
+keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &td0
-                &td1
+                &kp UP
+                &kp DOWN
             >;
         };
     };
