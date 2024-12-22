@@ -16,7 +16,7 @@ keymap {
 
         default_layer {
             bindings = <
-                &kp B
+                &kp UP
                 &kp DOWN
             >;
         };
