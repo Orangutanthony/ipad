@@ -30,7 +30,7 @@ keymap {
                 &kp D
                 &kp M
                 &kp N
-                &kp A
+                &bt BT_CLR
                 &kp K
                 &kp Q
                 &kp J
