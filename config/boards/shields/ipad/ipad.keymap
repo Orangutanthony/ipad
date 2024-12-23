@@ -16,24 +16,24 @@ keymap {
 
         default_layer {
             bindings = <
-                &kp A
-                &kp B
+                &kp O
+                &kp H
                 &kp C
                 &kp D
                 &kp E
                 &kp F
-                &kp G
+                &kp S
                 &kp H
                 &kp I
-                &kp J
-                &kp K
                 &kp L
+                &kp K
+                &kp D
                 &kp M
                 &kp N
-                &kp O
-                &kp P
+                &kp A
+                &kp K
                 &kp Q
-                &kp R
+                &kp J
             >;
         };
     };
